@@ -1,0 +1,50 @@
+.react-calendar-heatmap text {
+  font-size: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  fill: rgb(54, 84, 132);
+}
+
+.react-calendar-heatmap .react-calendar-heatmap-small-text {
+  font-size: 5px;
+}
+
+.react-calendar-heatmap rect:hover {
+  stroke: rgb(54, 84, 132);
+  stroke-width: 1px;
+}
+
+/*
+   * Default color scale
+   */
+
+.react-calendar-heatmap .color-empty {
+  fill: #eeeeee;
+}
+
+.react-calendar-heatmap .color-filled {
+  fill: #8cc665;
+}
+
+/*
+   * Github color scale
+   */
+
+.react-calendar-heatmap .color-0 {
+  fill: #eeeeee;
+}
+.react-calendar-heatmap .color-joy {
+  fill: #f4d24d;
+}
+.react-calendar-heatmap .color-fear {
+  fill: #bf87de;
+}
+.react-calendar-heatmap .color-anger {
+  fill: #cd4d36;
+}
+.react-calendar-heatmap .color-disgust {
+  fill: #8cc665;
+}
+.react-calendar-heatmap .color-sadness {
+  fill: #549bd2;
+}
